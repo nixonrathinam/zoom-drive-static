@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zoomdrive-carrental.vercel.app/sitemap.xml
+Sitemap: https://zoom-drive-rouge.vercel.app/sitemap.xml
