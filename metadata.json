@@ -1,6 +1,0 @@
-{
-  "name": "Zoom Drive",
-  "description": "Zoom Drive — Premium Luxury Car Rental Website with AI Booking Assistant",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
