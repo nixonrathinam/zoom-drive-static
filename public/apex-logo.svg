@@ -1,0 +1,115 @@
+<svg viewBox="0 0 620 310" width="620" height="310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#E2E8F0" />
+      <stop offset="60%" stop-color="#94A3B8" />
+      <stop offset="85%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#A1A1AA" />
+      <stop offset="100%" stop-color="#3F3F46" />
+    </linearGradient>
+    <linearGradient id="redSpeedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0033" />
+      <stop offset="50%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#990011" />
+    </linearGradient>
+    <linearGradient id="carBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272A" />
+      <stop offset="40%" stop-color="#09090B" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="gaugeSilver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Speedometer Arch Arc -->
+  <path d="M 120 120 C 180 35, 340 10, 480 95" stroke="url(#gaugeSilver)" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M 330 22 C 370 20, 410 28, 480 95" stroke="url(#redSpeedGrad)" stroke-width="12" stroke-dasharray="16 8" fill="none" />
+  <path d="M 345 70 L 400 62 L 355 75 Z" fill="#FF0033" />
+
+  <!-- Black Sports Car Body Silhouette -->
+  <g id="sportsCar">
+    <path d="M 135 130 C 145 110, 180 98, 205 92 C 240 82, 280 72, 340 78 C 390 82, 430 96, 475 112 C 510 125, 530 135, 545 145 C 510 148, 480 148, 450 148 C 420 148, 380 148, 310 148 C 240 148, 190 148, 135 130 Z" fill="url(#carBodyGrad)" stroke="#52525B" stroke-width="1.5" />
+    <path d="M 195 95 C 235 80, 280 74, 340 80 C 375 84, 405 92, 440 106" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.85" />
+    <path d="M 305 98 C 315 95, 322 96, 325 102 Z" fill="#E2E8F0" />
+    <path d="M 235 90 C 270 80, 310 77, 335 81 C 330 92, 315 100, 285 100 C 255 100, 240 96, 235 90 Z" fill="#18181B" stroke="#A1A1AA" stroke-width="1" opacity="0.9" />
+    <path d="M 485 118 Q 515 125 525 132 Q 500 130 480 124 Z" fill="#00F0FF" />
+    <ellipse cx="510" cy="128" rx="8" ry="3" fill="#FFFFFF" />
+    <path d="M 142 112 Q 135 118 132 126 Q 148 122 158 118 Z" fill="#FF0033" />
+    <path d="M 175 138 A 22 22 0 0 1 225 138" stroke="#3F3F46" stroke-width="4" fill="none" />
+    <path d="M 425 142 A 22 22 0 0 1 475 142" stroke="#3F3F46" stroke-width="4" fill="none" />
+  </g>
+
+  <!-- ZOOM -->
+  <g id="speedLinesZ">
+    <path d="M 35 152 L 130 152 L 110 162 L 15 162 Z" fill="url(#redSpeedGrad)" />
+    <path d="M 60 170 L 140 170 L 125 178 L 45 178 Z" fill="url(#redSpeedGrad)" />
+    <path d="M 85 186 L 150 186 L 138 192 L 75 192 Z" fill="url(#redSpeedGrad)" />
+  </g>
+
+  <!-- LETTER Z -->
+  <path d="M 105 142 L 205 142 L 205 158 L 138 198 L 210 198 L 210 216 L 100 216 L 100 200 L 168 160 L 105 160 Z" fill="url(#chromeGrad)" stroke="#475569" stroke-width="1.5" />
+
+  <!-- FIRST O (WHEEL RIM) -->
+  <g transform="translate(255, 178)">
+    <circle cx="0" cy="0" r="38" fill="#09090B" stroke="#3F3F46" stroke-width="3" />
+    <path d="M -22 -18 A 26 26 0 0 1 8 -26 L 4 -14 A 18 18 0 0 0 -16 -8 Z" fill="#FF0033" />
+    <circle cx="0" cy="0" r="28" fill="none" stroke="url(#rimGrad)" stroke-width="3" />
+    <line x1="0" y1="0" x2="0" y2="-27" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="25.6" y2="-8.3" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="15.8" y2="21.8" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-15.8" y2="21.8" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-25.6" y2="-8.3" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="9" fill="#09090B" stroke="url(#rimGrad)" stroke-width="2" />
+    <circle cx="0" cy="0" r="3" fill="#FF0033" />
+  </g>
+
+  <!-- SECOND O (WHEEL RIM) -->
+  <g transform="translate(350, 178)">
+    <circle cx="0" cy="0" r="38" fill="#09090B" stroke="#3F3F46" stroke-width="3" />
+    <path d="M -22 -18 A 26 26 0 0 1 8 -26 L 4 -14 A 18 18 0 0 0 -16 -8 Z" fill="#FF0033" />
+    <circle cx="0" cy="0" r="28" fill="none" stroke="url(#rimGrad)" stroke-width="3" />
+    <line x1="0" y1="0" x2="0" y2="-27" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="25.6" y2="-8.3" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="15.8" y2="21.8" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-15.8" y2="21.8" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-25.6" y2="-8.3" stroke="url(#rimGrad)" stroke-width="5.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="9" fill="#09090B" stroke="url(#rimGrad)" stroke-width="2" />
+    <circle cx="0" cy="0" r="3" fill="#FF0033" />
+  </g>
+
+  <!-- LETTER M -->
+  <path d="M 400 142 L 424 142 L 444 185 L 464 142 L 488 142 L 488 216 L 468 216 L 468 168 L 448 210 L 440 210 L 420 168 L 420 216 L 400 216 Z" fill="url(#chromeGrad)" stroke="#475569" stroke-width="1.5" />
+
+  <!-- KEY FOB -->
+  <g transform="translate(505, 175) rotate(18)">
+    <circle cx="0" cy="-28" r="8" fill="none" stroke="url(#chromeGrad)" stroke-width="2.5" />
+    <rect x="-14" y="-20" width="28" height="52" rx="14" fill="#09090B" stroke="url(#chromeGrad)" stroke-width="2" />
+    <circle cx="0" cy="-8" r="4" fill="#27272A" stroke="#A1A1AA" stroke-width="1" />
+    <path d="M -2 -9 L 2 -9 L 2 -6 L -2 -6 Z" fill="#FFFFFF" />
+    <circle cx="0" cy="5" r="4" fill="#27272A" stroke="#A1A1AA" stroke-width="1" />
+    <path d="M -2 4 L 2 4 L 0 7 Z" fill="#FFFFFF" />
+    <rect x="-4" y="16" width="8" height="3" rx="1" fill="#FF0033" />
+  </g>
+
+  <!-- DRIVE -->
+  <g id="speedLinesDrive">
+    <path d="M 105 228 L 225 228 L 210 234 L 120 234 Z" fill="url(#redSpeedGrad)" />
+    <path d="M 125 240 L 235 240 L 220 245 L 140 245 Z" fill="url(#redSpeedGrad)" />
+  </g>
+
+  <text x="235" y="256" font-family="Impact, 'Arial Black', sans-serif" font-style="italic" font-weight="900" font-size="48" letter-spacing="2" fill="url(#redSpeedGrad)">DRIVE</text>
+
+  <!-- CAR RENTAL -->
+  <line x1="120" y1="280" x2="200" y2="280" stroke="#FF0033" stroke-width="2" />
+  <line x1="140" y1="285" x2="200" y2="285" stroke="#FF0033" stroke-width="1" />
+  <text x="305" y="285" font-family="sans-serif" font-weight="800" font-size="18" letter-spacing="8" fill="#E2E8F0" text-anchor="middle">CAR RENTAL</text>
+  <line x1="410" y1="280" x2="490" y2="280" stroke="#FF0033" stroke-width="2" />
+  <line x1="410" y1="285" x2="470" y2="285" stroke="#FF0033" stroke-width="1" />
+</svg>

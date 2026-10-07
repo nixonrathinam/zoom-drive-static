@@ -1,0 +1,46 @@
+<svg viewBox="0 0 200 200" width="200" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconRimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#A1A1AA" />
+      <stop offset="100%" stop-color="#3F3F46" />
+    </linearGradient>
+    <linearGradient id="iconRedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0033" />
+      <stop offset="100%" stop-color="#990011" />
+    </linearGradient>
+    <linearGradient id="iconCarBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272A" />
+      <stop offset="50%" stop-color="#09090B" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <radialGradient id="iconDarkDisc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1C1C1C" />
+      <stop offset="85%" stop-color="#0B0B0B" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="96" fill="url(#iconRedGrad)" />
+  <circle cx="100" cy="100" r="91" fill="url(#iconRimGrad)" />
+  <circle cx="100" cy="100" r="88" fill="url(#iconDarkDisc)" stroke="url(#iconRedGrad)" stroke-width="2" />
+
+  <path d="M 40 100 C 60 40, 140 40, 160 100" stroke="url(#iconRimGrad)" stroke-width="4" fill="none" />
+  <path d="M 120 45 C 140 50, 155 70, 160 100" stroke="url(#iconRedGrad)" stroke-width="6" stroke-dasharray="8 4" fill="none" />
+
+  <path d="M 45 110 C 60 95, 90 85, 115 88 C 135 90, 150 100, 165 110 C 150 112, 120 112, 95 112 Z" fill="url(#iconCarBody)" stroke="#71717A" stroke-width="1" />
+  <path d="M 75 95 C 95 86, 120 86, 135 92" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.9" />
+  <ellipse cx="158" cy="108" rx="4" ry="2" fill="#00F0FF" />
+
+  <g transform="translate(100, 138) scale(0.85)">
+    <circle cx="0" cy="0" r="28" fill="#09090B" stroke="#3F3F46" stroke-width="2" />
+    <path d="M -16 -12 A 20 20 0 0 1 6 -18 L 3 -10 A 12 12 0 0 0 -12 -6 Z" fill="#FF0033" />
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="url(#iconRimGrad)" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="19" y2="-6.1" stroke="url(#iconRimGrad)" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="11.7" y2="16.1" stroke="url(#iconRimGrad)" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-11.7" y2="16.1" stroke="url(#iconRimGrad)" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="-19" y2="-6.1" stroke="url(#iconRimGrad)" stroke-width="4" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="6" fill="#09090B" stroke="url(#iconRimGrad)" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="2" fill="#FF0033" />
+  </g>
+</svg>
